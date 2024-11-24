@@ -7,7 +7,7 @@
 
 body {
   background-color: #1d4e4f6a;
-  background: url(https://png.pngtree.com/background/20231030/original/pngtree-abstract-geometric-background-in-black-a-fresh-design-perfect-for-presentations-picture-image_5784387.jpg);
+  background: url(https://th.bing.com/th/id/R.2e9b6bc5da43161b94bcc815f5081db4?rik=i3AWFJtQZXJfaA&riu=http%3a%2f%2fdreempics.com%2fuploads%2fposts%2f2016-08%2f1472196668_1.jpg&ehk=Mi2SLbGUOd0r25C5Odlk%2fw4wEGFhMnPK69U9kDqvDYI%3d&risl=&pid=ImgRaw&r=0);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -73,22 +73,8 @@ li {
   animation: animate30 5s infinite 3s;
 }
 
-@keyframes animate30 {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  50% {
-    transform: rotate(30deg);
-  }
-
-  100% {
-    transform: rotate(0deg);
-  }
-}
-
 .sorting-link {
-  color: #99ff4b;
+  color: #8eae74;
   text-decoration: none;
 }
 
@@ -124,6 +110,13 @@ li {
   100% {
     background-color: deepskyblue;
   }
+}
+
+.biography {
+  font-size: 25px;
+  color: rgb(198, 234, 234);
+  display: flex;
+  justify-content: center;
 }
 
 .btn {
@@ -165,7 +158,7 @@ li {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: rgb(0, 106, 255);
+  background-color: rgb(101, 123, 154);
   opacity: 1;
 }
 
@@ -187,7 +180,7 @@ li {
   min-width: 800px;
   min-height: 400px;
   padding: 15px;
-  background-color: rgb(255, 225, 1);
+  background-color: rgb(126, 154, 138);
   transform: translate(-50%, -50%);
   .backdrop.is-hidden & {
     transform: translate(-50%, -50%) scale(0);
@@ -202,6 +195,7 @@ li {
 }
 
 .candy {
+  color: azure;
   display: flex;
   justify-content: center;
 }
